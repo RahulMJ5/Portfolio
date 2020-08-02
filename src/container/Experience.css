@@ -1,0 +1,37 @@
+.heading{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.CompContainer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    /* flex-wrap: wrap; */
+}
+.CCompany {
+    margin-left: 30px;
+}
+
+.Acompany{
+    padding-left: 100px;
+    width: 450px;
+}
+
+.Bcompany{
+    padding-left: 68px;
+    width: 450px;
+}
+
+@media only screen and (min-width:300px) {
+    
+        /* flex-wrap: wrap; */
+
+}
+
+@media only screen and (min-width:800px) {
+    
+        /* flex-wrap: wrap;; */
+    
+}

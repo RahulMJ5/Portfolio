@@ -1,0 +1,38 @@
+.demoContainer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    /* flex-wrap: wrap; */
+}
+
+.fst {
+    text-align: left;
+}
+
+.shadows {
+    box-shadow: 0px 0px 10px black !important;
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+}
+
+.bgWhite {
+    background-color: lightblue;
+}
+
+@media only screen and (min-width:300px) {
+    .reverseOnMobile {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .reverseOnMobile {
+        flex-wrap: wrap;
+    }
+}
